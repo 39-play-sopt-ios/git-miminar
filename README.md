@@ -61,7 +61,7 @@ git config pull.rebase false   # 이 실습의 pull 방식: merge
 
 ```swift
 // MARK: - 3번
-let member3 = Member(
+let seoyeong = Member(
     githubID: "본인GitHubID",
     greeting: "하고 싶은 인사말"
 )
