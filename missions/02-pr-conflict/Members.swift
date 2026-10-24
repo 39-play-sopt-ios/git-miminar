@@ -21,8 +21,8 @@ let juhui = Member(
 
 // MARK: - 3번
 let seoyeong = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "amie-lee",
+    greeting: "잠을잡시다"
 )
 
 // MARK: - 4번
