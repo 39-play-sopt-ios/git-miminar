@@ -10,25 +10,25 @@ struct Member {
 // MARK: - 1번
 let sereong = Member(
     githubID: "",
-    greeting: "안녕하세요"
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
 )
 
 // MARK: - 2번
 let juhui = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "dearosmar",
+    greeting: "여러분 잘 자염"
 )
 
 // MARK: - 3번
 let seoyeong = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "ser0kim",
+    greeting: "[외침]우나나우나나우나낫끼얏호우 [시스템 알림]레전드 미미나를 들어서 능력치가 100 상승했다!"
 )
 
 // MARK: - 4번
 let sieon = Member(
     githubID: "",
-    greeting: "안녕하세요"
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
 )
 
 // MARK: - 5번
@@ -40,17 +40,17 @@ let boyoung = Member(
 // MARK: - 6번
 let bomin = Member(
     githubID: "",
-    greeting: "안녕하세요"
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
 )
 
 // MARK: - 7번
 let dayeon = Member(
     githubID: "",
-    greeting: "안녕하세요"
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
 )
 
 // MARK: - 8번
 let sangyup = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "sangyup12",
+    greeting: "안녕하시오 이상엽이올시다"
 )
