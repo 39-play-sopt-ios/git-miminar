@@ -39,8 +39,8 @@ let boyoung = Member(
 
 // MARK: - 6번
 let bomin = Member(
-    githubID: "",
-    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
+    githubID: "bominnnkimmm",
+    greeting: "안녕하요"
 )
 
 // MARK: - 7번
