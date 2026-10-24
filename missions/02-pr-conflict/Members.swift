@@ -51,6 +51,6 @@ let dayeon = Member(
 
 // MARK: - 8번
 let sangyup = Member(
-    githubID: "",
-    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
+    githubID: "sangyup12",
+    greeting: "안녕하시오 이상엽이올시다"
 )
