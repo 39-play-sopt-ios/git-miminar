@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    let title = "Login"
+    let title = "로그인"
 
     var body: some View {
         VStack(spacing: 16) {
