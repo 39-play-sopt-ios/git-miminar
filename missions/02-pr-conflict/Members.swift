@@ -45,8 +45,8 @@ let bomin = Member(
 
 // MARK: - 7번
 let dayeon = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "dxxeon",
+    greeting: "안녕하세요~ 다연입니다"
 )
 
 // MARK: - 8번
