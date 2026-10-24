@@ -27,8 +27,8 @@ let seoyeong = Member(
 
 // MARK: - 4번
 let sieon = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "siiooin",
+    greeting: "안녕하세요시언입니다."
 )
 
 // MARK: - 5번
@@ -51,6 +51,6 @@ let dayeon = Member(
 
 // MARK: - 8번
 let sangyup = Member(
-    githubID: "siiooin",
-    greeting: "안녕하세요잘부탁드려요전시언입니다."
+    githubID: "",
+    greeting: "안녕하세요"
 )
