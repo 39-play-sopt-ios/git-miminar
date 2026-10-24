@@ -42,3 +42,15 @@ let bomin = Member(
     githubID: "",
     greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
 )
+
+// MARK: - 7번
+let dayeon = Member(
+    githubID: "",
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
+)
+
+// MARK: - 8번
+let sangyup = Member(
+    githubID: "",
+    greeting: "미미나 고생하셨습니다 4차세미나에서 만나요"
+)
