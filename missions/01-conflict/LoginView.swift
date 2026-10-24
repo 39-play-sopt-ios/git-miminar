@@ -7,7 +7,7 @@ struct LoginView: View {
         VStack(spacing: 16) {
             Text(title)
                 .font(.largeTitle)
-            Button("계속하기") {}
+            Button("다음") {}
         }
         .padding()
     }
