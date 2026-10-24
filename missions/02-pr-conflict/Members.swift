@@ -33,8 +33,8 @@ let sieon = Member(
 
 // MARK: - 5번
 let boyoung = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "Eda3399",
+    greeting: "안녕하세요 바보입니다.."
 )
 
 // MARK: - 6번
