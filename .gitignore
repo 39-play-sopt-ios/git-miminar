@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+
+# 보너스 미션이 만드는 연습용 폴더
+.playground/
