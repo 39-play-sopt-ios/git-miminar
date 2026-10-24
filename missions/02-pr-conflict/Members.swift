@@ -8,61 +8,37 @@ struct Member {
 }
 
 // MARK: - 1번
-let member1 = Member(
+let sereong = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
 
 // MARK: - 2번
-let member2 = Member(
+let juhui = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
 
 // MARK: - 3번
-let member3 = Member(
+let seoyeong = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
 
 // MARK: - 4번
-let member4 = Member(
+let sieon = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
 
 // MARK: - 5번
-let member5 = Member(
+let boyoung = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
 
 // MARK: - 6번
-let member6 = Member(
-    githubID: "",
-    greeting: "안녕하세요"
-)
-
-// MARK: - 7번
-let member7 = Member(
-    githubID: "",
-    greeting: "안녕하세요"
-)
-
-// MARK: - 8번
-let member8 = Member(
-    githubID: "",
-    greeting: "안녕하세요"
-)
-
-// MARK: - 9번
-let member9 = Member(
-    githubID: "",
-    greeting: "안녕하세요"
-)
-
-// MARK: - 10번
-let member10 = Member(
+let bomin = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
