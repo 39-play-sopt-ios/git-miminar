@@ -30,6 +30,7 @@ git config pull.rebase false   # 이 실습의 pull 방식: merge
 
 - `mission1-me` 브랜치에 `mission1-teammate` 브랜치를 merge 하세요.
 - `LoginView.swift`에서 충돌이 납니다. 타이틀을 `"Sign in"`이나 `"로그인"` 중 하나로 정리하고 커밋하세요.
+- 팀원은 버튼 문구도 `"다음"`으로 바꿨는데, 이 줄은 충돌 없이 자동으로 합쳐져요. 충돌 난 타이틀 줄만 고치면 됩니다.
 - 충돌 난 파일은 Xcode로 열어 마커 3줄을 지우고 저장한 뒤, GitKraken에서 Stage → Commit 하세요.
 
 ```bash

@@ -41,6 +41,12 @@ else
   fail 'let title 줄이 정확히 하나, "Sign in" 또는 "로그인" 중 하나여야 해요.'
 fi
 
+if grep -q 'Button("다음")' "$FILE"; then
+  pass '충돌 안 난 팀원 변경(버튼 "다음")도 그대로 들어왔어요.'
+else
+  fail '팀원이 바꾼 버튼 문구 Button("다음")이 사라졌어요. 충돌 난 타이틀 줄만 고치세요.'
+fi
+
 if [ -z "$(git status --porcelain -- "$FILE")" ]; then
   pass '정리한 내용이 커밋됐어요.'
 else
