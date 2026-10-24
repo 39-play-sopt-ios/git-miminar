@@ -21,8 +21,8 @@ let juhui = Member(
 
 // MARK: - 3번
 let seoyeong = Member(
-    githubID: "",
-    greeting: "안녕하세요"
+    githubID: "ser0kim",
+    greeting: "[외침]우나나우나나우나낫끼얏호우 [시스템 알림]레전드 미미나를 들어서 능력치가 100 상승했다!"
 )
 
 // MARK: - 4번
