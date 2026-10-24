@@ -48,3 +48,9 @@ let dayeon = Member(
     githubID: "",
     greeting: "안녕하세요"
 )
+
+// MARK: - 8번
+let sangyup = Member(
+    githubID: "",
+    greeting: "안녕하세요"
+)
