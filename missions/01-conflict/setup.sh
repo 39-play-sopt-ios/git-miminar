@@ -16,11 +16,13 @@ fi
 
 git switch --quiet main
 
-# 팀원 브랜치: 타이틀을 "Sign in"으로 바꾼 커밋
+# 팀원 브랜치: 타이틀을 "Sign in"으로, 버튼을 "다음"으로 바꾼 커밋
+# 버튼 줄은 충돌 없이 자동으로 합쳐진다. 그래서 내 타이틀을 골라도 merge 결과가 내 커밋과 달라져서
+# GitKraken에서 Stage할 변경이 생기고 Commit and Merge가 막히지 않는다.
 git switch --quiet -C mission1-teammate main
-sed -i.bak 's/let title = "Login"/let title = "Sign in"/' "$FILE"
+sed -i.bak -e 's/let title = "Login"/let title = "Sign in"/' -e 's/Button("계속하기")/Button("다음")/' "$FILE"
 rm -f "$FILE.bak"
-git commit --quiet --author='팀원 <teammate@example.com>' -am 'feat: 로그인 타이틀을 Sign in으로 변경'
+git commit --quiet --author='팀원 <teammate@example.com>' -am 'feat: 로그인 화면 문구 변경 (타이틀, 버튼)'
 
 # 내 브랜치: 같은 줄을 "로그인"으로 바꾼 커밋
 git switch --quiet -C mission1-me main
